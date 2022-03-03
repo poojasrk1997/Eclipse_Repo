@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\pkharatm\eclipse-workspace\AutomationPractiseFramework"/>
+			<item value="C:\Users\pkharatm\eclipse-workspace\CucumberPOMDemoNew\pom.xml"/>
+			<item value="C:\Users\pkharatm\eclipse-workspace\FirstMavenProject\src\main\resources\testng.xml"/>
+			<item value="C:\Users\pkharatm\eclipse-workspace\"/>
+			<item value="C:\Users\pkharatm\eclipse-workspace\com.seleniumframewrok.modular"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="UdemySelenium.UdemySelenium"/>
+			<item value="AutomationPractiseFramework.AutomationPractiseFramework"/>
+			<item value="CucumberPOMDemoNew.CucumberPOMDemoNew"/>
+			<item value="CucumberPOMSeries.CucumberPOMSeries"/>
+			<item value="CucumberPOMDemo.CucumberPOMDemo"/>
+			<item value="DemoGITRepo.DemoGITRepo"/>
+		</list>
+		<list key="groupId">
+			<item value="UdemySelenium"/>
+			<item value="AutomationPractiseFramework"/>
+			<item value="CucumberPOMDemoNew"/>
+			<item value="CucumberPOMSeries"/>
+			<item value="CucumberPOMDemo"/>
+			<item value="DemoGITRepo"/>
+		</list>
+		<list key="artifactId">
+			<item value="UdemySelenium"/>
+			<item value="AutomationPractiseFramework"/>
+			<item value="CucumberPOMDemoNew"/>
+			<item value="CucumberPOMSeries"/>
+			<item value="CucumberPOMDemo"/>
+			<item value="DemoGITRepo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

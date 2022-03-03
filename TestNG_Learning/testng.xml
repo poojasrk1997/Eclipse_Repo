@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="firstTestNGTutorial.FirstTestNGScript"/>
+      <class name="firstTestNGTutorial.HardAssertionDemo"/>
+      <class name="firstTestNGTutorial.handleWindow"/>
+      <class name="firstTestNGTutorial.VerifyErrorDemo"/>
+      <class name="firstTestNGTutorial.VerifyTitleDemo"/>
+      <class name="firstTestNGTutorial.CaptureScreenshot"/>
+      <class name="firstTestNGTutorial.SoftAssertDemo"/>
+      <class name="webAutomation.CheckboxField"/>
+      <class name="webAutomation.InputSimpleForm"/>
+      <class name="firstTestNGTutorial.HandleAlert"/>
+      <class name="firstTestNGTutorial.brokenLinks"/>
+      <class name="firstTestNGTutorial.handleWindow2"/>
+      <class name="firstTestNGTutorial.WithoutTypingData"/>
+      <class name="firstTestNGTutorial.Application"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

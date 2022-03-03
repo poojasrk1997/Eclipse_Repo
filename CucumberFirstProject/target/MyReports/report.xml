@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.22">
+    <testcase classname="Amazon Order Search" name="Search Previous Orders" time="0.073">
+        <system-out><![CDATA[Given You are existing user.................................................passed
+Given You are on login page.................................................passed
+When You enter username.....................................................passed
+And You enter password......................................................passed
+And Login to Amazon.........................................................passed
+Then Go to Previous order link..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Order Search" name="Search Cancelled Orders" time="0.001">
+        <system-out><![CDATA[Given You are existing user.................................................passed
+Given You are on login page.................................................passed
+When You enter username.....................................................passed
+And You enter password......................................................passed
+And Login to Amazon.........................................................passed
+Then Go to Cancelled order link.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

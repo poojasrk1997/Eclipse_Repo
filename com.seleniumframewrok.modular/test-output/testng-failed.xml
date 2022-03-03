@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="1!"/>
+    <parameter name="username" value="mngr26593"/>
+    <classes>
+      <class name="com.guru99.test.LoginTests">
+        <methods>
+          <include name="postTestAction"/>
+          <include name="closeReport"/>
+          <include name="closingBrowser"/>
+          <include name="verifyLoginWithCorrectCredentials" invocation-numbers="0"/>
+          <include name="preSetUp"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- com.guru99.test.LoginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

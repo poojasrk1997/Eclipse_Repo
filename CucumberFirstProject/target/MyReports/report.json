@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "You are existing user",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_are_existing_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "You are on login page",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_are_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "You enter username",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "You enter password",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login to Amazon",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.login_to_amazon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-19T18:52:10.959Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2987300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "myHooks.HookTags.setup_browser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search Previous Orders",
+        "description": "",
+        "id": "amazon-order-search;search-previous-orders",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "myHooks.HookTags.teardown_close(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Go to Previous order link",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.go_to_previous_order_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "You are existing user",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_are_existing_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "You are on login page",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_are_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "You enter username",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "You enter password",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.you_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login to Amazon",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.login_to_amazon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-19T18:52:11.043Z",
+        "line": 15,
+        "name": "Search Cancelled Orders",
+        "description": "",
+        "id": "amazon-order-search;search-cancelled-orders",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "myHooks.HookTags.teardown_close(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Go to Cancelled order link",
+            "match": {
+              "location": "stepDefination.AmazonOrderSteps.go_to_cancelled_order_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Order Search",
+    "description": "  I have to search previous orders and cancelled orders",
+    "id": "amazon-order-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/appFeatures/AmazonOrder.feature",
+    "tags": []
+  }
+]
