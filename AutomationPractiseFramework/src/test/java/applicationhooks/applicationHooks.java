@@ -33,6 +33,7 @@ public class applicationHooks {
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_browser(browserName);
 		System.out.println("Browser Launched");
+		System.out.println("Browser Launched Again");
 	}
 	@After(order = 0)
 	public void quitBrowser()
