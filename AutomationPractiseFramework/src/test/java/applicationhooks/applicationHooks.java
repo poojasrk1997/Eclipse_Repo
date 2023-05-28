@@ -32,6 +32,7 @@ public class applicationHooks {
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_browser(browserName);
+		System.out.println("Browser Launched");
 	}
 	@After(order = 0)
 	public void quitBrowser()
